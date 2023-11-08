@@ -1,92 +1,112 @@
-
-
 body {
-    background-color: whitesmoke;
-    text-align: center;
+  background-color: whitesmoke;
+  text-align: center;
+  max-width: fit-content;
+  max-height: fit-content;
 }
-img {
-    height: auto;
-    width: 100px;
-    margin-bottom: -1%;
-}
-hr {
-    width: 60%;
 
-    border-color: black;
+hr {
+  width: 60%;
+
+  border-color: black;
 }
 h1 {
-   
-    font-family: 'Playfair Display', serif;
-font-size: 65px;
+  font-family: "Playfair Display", serif;
+  font-size: 65px;
+}
+h1 img {
+  height: auto;
+  width: 100px;
+  margin-bottom: -1%;
 }
 h2 {
-    font-family: 'Major Mono Display', monospace;
-    font-size: 27px;
+  font-family: "Major Mono Display", monospace;
+  font-size: 27px;
 }
 
 h3 {
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 25px;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 25px;
 }
 
 p {
-    font-family: 'Comfortaa', cursive;
-  
-   line-height: 1.8;
-    width: 60%;
-    margin-left: 19%;
-    
+  font-family: "Comfortaa", cursive;
+
+  line-height: 1.8;
+  width: 60%;
+  margin-left: 19%;
 }
 .socials #instagram img {
-    
-    width: 30px;
-    margin-left: 80%;
-    margin-top: -3.5%;
-    margin-right: 2%;
+  width: 30px;
+  margin-left: 80%;
+  margin-top: -3.5%;
+  margin-right: 2%;
 }
 .socials h4 {
-    margin-left: 68%;
-    margin-top: -2%;
-    font-family: 'Josefin Sans', sans-serif;
+  margin-left: 68%;
+  margin-top: -2%;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 .socials #linkedin img {
-    width: 50px;
-    
-    margin-left: 85%;
-    margin-top: -4%;
+  width: 50px;
+
+  margin-left: 85%;
+  margin-top: -4%;
 }
 
 #vl {
-    border-left: 2px solid rgb(0, 0, 0);
-    height: 400px;
-    margin-left: 81%;
-   margin-top: 13%;
+  border-left: 2px solid rgb(0, 0, 0);
+  height: 400px;
+  margin-left: 81%;
+  margin-top: 13%;
 }
 
 #vl2 {
-    border-left: 2px solid rgb(0, 0, 0);
-    height: 400px;
-    margin-left: 18%;
-   margin-top: -28%;
+  border-left: 2px solid rgb(0, 0, 0);
+  height: 400px;
+  margin-left: 18%;
+  margin-top: -28%;
 }
 
 .main_content {
-    margin-top: -52%;
+  margin-top: -40%;
+  font-family: "Comfortaa", cursive;
+
+  line-height: 1.8;
+  width: 60%;
+  margin-left: 19%;
 }
-.main_content img{
-   width: 680px;
+.main_content ol {
+    
+    width: max-content;
+    margin: auto;
+   
+  }
+.main_content #file img{
+  width: 280px;
+  height: fit-content;
+  margin-left: 0%;
+}
+.main_content #index_img img{
+   
+    margin-left: -0%;
+  }
+.main_content img {
+  width: 680px;
+
+  margin-left: -11%;
+  
 }
 
-#about_me  {
-    margin-left: 80%;
-    margin-top: -27%;
+#about_me {
+  margin-left: 80%;
+  margin-top: -27%;
 }
 
-#about_me  img {
-    width: 200px;
+#about_me img {
+  width: 200px;
 }
-#about_me  p {
-
-    font-size: 12px;
+#about_me p {
+  font-size: 12px;
 }
