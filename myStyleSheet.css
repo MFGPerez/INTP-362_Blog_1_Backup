@@ -78,35 +78,19 @@ p {
   margin-left: 19%;
 }
 .main_content ol {
-    
-    width: max-content;
-    margin: auto;
-   
-  }
-.main_content #file img{
+  width: max-content;
+  margin: auto;
+}
+.main_content #file img {
   width: 280px;
   height: fit-content;
   margin-left: 0%;
 }
-.main_content #index_img img{
-   
-    margin-left: -0%;
-  }
+.main_content #index_img img {
+  margin-left: -0%;
+}
 .main_content img {
   width: 680px;
 
   margin-left: -11%;
-  
-}
-
-#about_me {
-  margin-left: 80%;
-  margin-top: -27%;
-}
-
-#about_me img {
-  width: 200px;
-}
-#about_me p {
-  font-size: 12px;
 }
