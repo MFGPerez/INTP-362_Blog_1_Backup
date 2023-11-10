@@ -118,6 +118,28 @@
         <br />
       </div>
 
+      <h3>How React Works</h3>
+      <p>
+        React uses a react element that is a java script object that is mapped
+        to a a DOM element, this JS object is just a representation of the DOM
+        in memory So in genral terms React keeps a loose representation of the
+        real DOM (Virtual DOM) in memory kinda like a copy. <br>
+  
+         Unlike the real DOM
+        the virtual is easy to make it dosnt take much resources, this helps
+        because whenever we change a component React will create a new virtual
+        DOM then it will compare the previous component and children to the new
+        virtual DOM then figure out whats changed after which it updates that
+        part in real DOM. React basically keeps a reccord of the old DOM and the
+        real DOM then compares it with the newest DOM ie the virtual DOM then
+        updates accordinly to keep everythin in synch this is why the name
+        React is so fitting it reacts to your changes.  <br>
+      
+        Before react developers
+        had to manipulate the real DOM by adding event liseners and quearys to
+        the DOM it was compleatly hands on but with react its done
+        automatically.
+      </p>
       <h3>What is my demo</h3>
       <p></p>
 
